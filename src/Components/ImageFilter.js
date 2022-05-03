@@ -12,10 +12,10 @@ export default (type) => {
 
     const Images = {
         Restaurante: <IconeTema src={alimentacao} alt="restaurante" />,
-        Utilidades: <IconeTema src={alimentacao} alt="utilidades" />,
-        Saude: <IconeTema src={alimentacao} alt="saude" />,
-        Transporte: <IconeTema src={alimentacao} alt="transporte" />,
-        default: <IconeTema src={alimentacao} alt="outros" />
+        Utilidades: <IconeTema src={utilidades} alt="utilidades" />,
+        Saude: <IconeTema src={saude} alt="saude" />,
+        Transporte: <IconeTema src={transporte} alt="transporte" />,
+        default: <IconeTema src={outros} alt="outros" />
      };
 
      return Images [type] || Images.default;
